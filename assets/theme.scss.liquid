@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .menu {
+        font-weight: 700;
+        font-size: 21px;
+        display: flex;
+        .menu-link {
+            list-style-type: none;
+            margin: 0 15px 0 15px;
+            a {
+                color: #202020;
+                text-decoration: none;
+            }
+        }
+        .menu-link:last-child {
+            text-transform: uppercase;
+            a {
+                color: #CC0000;
+            }
+        }
+    }
+}
+#shopify-section-main {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #131824;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+main {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .greeting_text {
+        text-align: center;
+        line-height: 43.53px;
+        font-size: 32px;
+        font-family: 'Goudy Bookletter 1911', serif;
+    }
+    .wrapper_price {
+        margin: 40px 0;
+        font-weight: 400;
+        .line-through {
+            text-decoration: line-through;
+            opacity: 50%;
+        }
+    }
+    button {
+        background: none;
+        border: none;
+        background-color: #CC0000;
+        padding: 14px 25px;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+}

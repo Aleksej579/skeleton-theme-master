@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ shop.locale }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <title>{{ shop.name }}</title>
+  <meta name="description" content="">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  {{ 'theme.scss.liquid' | asset_url | stylesheet_tag }}
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+
+</head>
+
+<body>
+  <i class='bx bx-user'></i>
+  <i class='bx bxs-user'></i>
+  <i class='bx bxl-facebook-square'></i>
+  {% section "header" %}
+</body>
+
+</html>
